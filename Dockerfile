@@ -18,7 +18,7 @@ RUN docker-php-ext-install opcache mysqli pdo_mysql
 
 #xdebug
 RUN pecl install xdebug && \
-    echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20160303/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini && \
+    echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20180731/xdebug.so" > /usr/local/etc/php/conf.d/xdebug.ini && \
     echo "expose_php=off" > /usr/local/etc/php/conf.d/expose_php.ini
 
 #composer
