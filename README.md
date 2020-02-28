@@ -1,5 +1,5 @@
 # php7-nginx-s6
-PHP7.3 and NGinx managed by S6-Overlay
+PHP7.2 and NGinx managed by S6-Overlay
 
 ## Usage
 

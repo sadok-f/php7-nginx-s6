@@ -1,4 +1,4 @@
-FROM php:7.3-fpm-stretch
+FROM php:7.2-fpm-stretch
 
 MAINTAINER sadoknet@gmail.com
 ENV DEBIAN_FRONTEND=noninteractive
